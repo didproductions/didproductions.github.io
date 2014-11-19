@@ -4,7 +4,7 @@ body {
 
   color: black;
   background-color: white;
-  background: url(../images/bg.jpg);
+  background: url(../images/bg.gif);
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -50,8 +50,8 @@ nav a:hover,
 nav a:active
 {
     text-decoration: none;
-    background-color: #E45C4A;
-    color: black;
+    background-color: black;
+    color: white;
     display: block;
     padding: 0.8em 0px;
     font-size:1em;
@@ -65,23 +65,11 @@ nav a:active
    transition: .6s background; 
 }
 nav a:hover{
-  background:black;
-  color:white;
+  background:white;
+  color:black;
+  border: 1px solid black;
 }
-#banner
-{
-  /*font-size: 2em;
-  text-transform: uppercase;
-  color: #6585B6;
-  text-align: center;
-  margin:1%;
-  padding:2%;
-  letter-spacing: .12em;*/
-  font-family: "Open Sans", sans-serif;
-  text-align: justify;
-  padding:5%;
 
-}
 
 section
 {
@@ -94,8 +82,9 @@ article img
 }
 article
 {
-  background-color: lightgrey;
-
+ background-color: rgba(0,0,0,0.05);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3em;
   padding:2%;
   margin-bottom: 10px;
   
@@ -103,21 +92,28 @@ article
 article h1
 {
   text-align: right;
-  color:#6585B6;
+  /*color:#6585B6;*/
+  color:black;
   font-size: 2em;
   display:inline;
   float: right;
 }
 article p
 {
-  font-family: "Open Sans", sans-serif;
-  text-align: justify;
+  
+  text-align: left;
+
 
 }
 article p:first-letter
 {
       font-size: 3em;
       font-weight: bold;
+      
+}
+article span
+{
+  color: #6585B6;
 }
 footer
 {
