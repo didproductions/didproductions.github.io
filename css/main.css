@@ -1,0 +1,209 @@
+body {
+  margin: 0; 
+  font-family: "Impact", "Coda" ;
+
+  color: black;
+  background-color: black;
+}
+video { 
+  width: 100%;   
+  height: auto;
+  background: url('../images/DID.jpg') no-repeat;
+  
+  transition: 1s opacity;
+}
+button {
+  display:block;
+  width: 8em;
+  height: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10em;
+  background: #ED4240;
+  font-family: "Impact", "Coda";
+  letter-spacing: .1em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;  
+  text-decoration: none;
+  border:0;
+  cursor: pointer;
+  transition: .6s background;
+}
+button:hover {
+  background: #000;
+  text-decoration: none;  
+  transition: .6s background;
+}
+nav
+{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  letter-spacing: .1em;
+}
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active
+{
+    text-decoration: none;
+    background-color: #E45C4A;
+    color: black;
+    display: block;
+    padding: 0.8em 0px;
+    font-size:1em;
+    text-align: center;
+    width: 90%;    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+   transition: .6s background; 
+}
+nav a:hover{
+  background:black;
+  color:white;
+}
+#banner
+{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #6585B6;
+  text-align: center;
+  margin:1%;
+  padding:2%;
+  letter-spacing: .12em;
+
+
+}
+
+section
+{
+  margin:2%;
+}
+
+article img
+{
+    position: left;
+}
+article
+{
+  background-color: lightgrey;
+
+  padding:2%;
+  margin-bottom: 10px;
+  
+}
+article h1
+{
+  text-align: right;
+  color:#6585B6;
+  font-size: 2em;
+  display:inline;
+  float: right;
+}
+article p
+{
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+
+}
+article p:first-letter
+{
+      font-size: 3em;
+      font-weight: bold;
+}
+footer
+{
+  text-align: center;
+  padding-top: 30px;
+
+}
+footer a
+{
+font-size: 0;
+
+}
+.clearfix
+{
+  clear:both;
+}
+@media screen and (min-width: 640px) { 
+
+button
+{
+  visibility: hidden;
+}
+video
+{
+  display:inline;
+  float:left;
+  width: 70%;
+  max-width: 580px;
+}
+button
+{
+  width:10em;
+  display:inline;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;  
+}
+#inner
+{
+  float: right;
+  width: 30%;
+
+}
+nav
+{
+ float:left;
+  display:inline;
+}
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active
+{
+    width: 80%;
+    display:inline;
+    float:left;
+
+}
+@media screen and (min-width: 750px) {
+iframe
+{
+  height:auto;
+}
+section
+{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+article
+{
+  width:26.7%;
+  margin-right: 1% ;
+  margin-left: 1%;
+  float:left;
+
+}  
+button
+{
+  visibility: hidden;
+}
+
+}
+@media screen and (min-width: 960px) {
+  
+#wrapper
+{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
