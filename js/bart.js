@@ -1,4 +1,5 @@
-var vid = document.getElementById("bgvid");
+
+});var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#didvid");
 
 function vidFade() {
