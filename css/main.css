@@ -70,6 +70,7 @@ nav
   padding-top: 20px;
   padding-bottom: 10px;
   letter-spacing: .1em;
+  margin-left: 50%;
 }
 nav a:link,
 nav a:visited,
@@ -83,9 +84,8 @@ nav a:active
     padding: 0.8em 0px;
     font-size:1em;
     text-align: center;
-    width: 90%;    
-    margin-left: 5%;
-    margin-right: 5%;
+      
+    
     margin-top: 2px;
     margin-bottom: 10px;
     border: 1px solid black;
@@ -101,7 +101,8 @@ nav a:hover{
 {
   font-family: "Josefin Sans";
   font-weight: 400;
-  background-color: #fff;
+  background-color: black;
+  color: white;
   font-size: 2em;
   padding-left: 10%;
   padding-right: 10%;
