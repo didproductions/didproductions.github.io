@@ -70,7 +70,7 @@ nav
   padding-top: 20px;
   padding-bottom: 10px;
   letter-spacing: .1em;
-  margin-left: 50%;
+  margin-left: 40%;
 }
 nav a:link,
 nav a:visited,
@@ -78,8 +78,8 @@ nav a:hover,
 nav a:active
 {
     text-decoration: none;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     display: block;
     padding: 0.8em 0px;
     font-size:1em;
@@ -92,8 +92,8 @@ nav a:active
    transition: .6s background; 
 }
 nav a:hover{
-  background:black;
-  color:white;
+  background:white;
+  color:black;
   border: 1px solid black;
 }
 
